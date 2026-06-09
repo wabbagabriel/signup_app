@@ -1,0 +1,192 @@
+body {
+  background: gainsboro;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 800px;
+  overflow: hidden;
+  box-shadow: 1px 5px 30px rgb(74, 73, 73);
+}
+
+.card1 {
+  background: white;
+  width: 400px;
+  height: 100%;
+  padding: 20px;
+}
+
+.card1-logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.card1-logo {
+  display: flex;
+  align-items: center;
+  color: rgb(25, 75, 48);
+}
+
+.card1 a {
+  color: rgb(47, 71, 47);
+}
+
+.logo {
+  margin: 20px;
+}
+
+.forget-password {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forget-password > a {
+  margin-top: 15px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(196, 193, 193);
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.submit-button {
+  background: rgb(47, 71, 47);
+  color: white;
+  cursor: pointer;
+}
+
+.buttons > a {
+  text-decoration: none;
+}
+
+.buttons button {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  background: white;
+  border: 1px solid rgb(196, 193, 193);
+  border-radius: 20px;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+
+button img {
+  width: 20px;
+  border-radius: 500%;
+}
+
+.card2 {
+  background-image: url("https://img.goodfon.com/original/1920x1200/8/30/tekstura-zelenyy-temnovatye.jpg");
+  color: white;
+  padding: 20px;
+  width: 400px;
+}
+
+.card2-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(25, 75, 48);
+}
+
+.card2-logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.Support {
+  color: white;
+  margin-left: 20px;
+}
+
+.olara-card {
+  background: white;
+  color: black;
+  margin: 50px 20px;
+  padding: 20px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.goals h2 {
+  color: rgb(47, 71, 47);
+}
+
+.goals button {
+  background: rgb(47, 71, 47);
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.olara-card {
+  display: flex;
+}
+
+.atmcard-image img {
+  width: 100%;
+}
+
+.earnings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 60px 10px 20px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: -30px;
+  right: 0px;
+  background-color: rgb(244, 244, 244);
+}
+
+.earnings img {
+  width: 20px;
+}
+
+.earnings p {
+  margin: 0px;
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(25, 75, 48);
+}
+
+.text-content {
+  margin: 30px;
+  text-align: center;
+}
+
+h4 {
+  margin: 4px 0px;
+  color: rgb(25, 75, 48);
+}
+
+@media (max-width: 840px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
