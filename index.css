@@ -182,11 +182,16 @@ h4 {
   color: rgb(25, 75, 48);
 }
 
-@media (max-width: 840px) {
+@media (min-width: 360px) {
   .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .card2,
+  .card1 {
+    width: calc(100% - 20px);
   }
 }
